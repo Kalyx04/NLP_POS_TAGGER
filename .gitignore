@@ -1,0 +1,26 @@
+# Python + PyCharm + POS Tagger ignores
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+
+# PDF and output CSV files
+*.pdf
+*.csv
+
+# Virtual Environments
+env/
+venv/
+.venv/
+.pos_env/
+
+# Stanza models
+stanza_resources/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
