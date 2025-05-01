@@ -10,8 +10,16 @@ LANG_OPTIONS = {
     "Hindi": "hi",
     "English": "en",
     "Marathi": "mr",
-    "Tamil": "ta"
+    "Tamil": "ta",
+    "Telugu": "te",
+    "Gujarati": "gu",
+    "Kannada": "kn",
+    "Malayalam": "ml",
+    "Punjabi": "pa",
+    "Urdu": "ur",
+    "Bengali": "bn"
 }
+
 
 def setup_stanza(lang_code):
     stanza.download(lang_code, verbose=False)
